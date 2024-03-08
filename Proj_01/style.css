@@ -1,0 +1,69 @@
+/* Estilo para o corpo da página */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilo para o título */
+h1 {
+  text-align: center;
+  font-family: Times New Roman;
+  font-size: 60px;
+}
+
+/* Estilo para o campo de pesquisa */
+#pesquisa {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Estilo para a lista de livros */
+#listaLivro {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilo para cada item da lista de livros */
+.book {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para os botões dentro de cada item da lista de livros */
+.book button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Estilo para o botão de adicionar livro */
+#livroBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilo para o botão de adicionar categoria */
+#categoriaBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a72828;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
